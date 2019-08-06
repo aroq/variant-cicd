@@ -4,7 +4,7 @@ RUN apk add --update \
 RUN pwd && \
   git clone https://github.com/aroq/variant.git && \
   cd variant && \
-  git checkout master && \
+  git checkout unstable && \
   go build && \
   cp variant /usr/bin/
 
